@@ -1,0 +1,78 @@
+.container {
+    padding: 50px 50px;
+    
+  }
+  /* .filter{
+      background-color: burlywood;
+  }
+ .content{
+     background-color: chocolate;
+ } */
+ .ant-menu-item {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+ .filterCard{
+     width: 80%;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+     
+ }
+ 
+ .toggleIcon{
+     padding-right: 10px;
+     width: 40px;
+     float: right;
+ }
+
+ .checkBox{
+     padding-top: 0px !important;
+ }
+ .subMenu:hover{
+    color:none !important;
+    overflow: hidden;
+
+  }
+  /* .ant-checkbox-group-item {
+    display:block !important; 
+    margin-right: 10px;
+} */
+
+.sortButton{
+    border-radius: 100px;
+    margin: 6px 6px;
+
+}
+.sortButton:hover{
+    color: rgb(240, 64, 93) !important;
+}
+
+.contentBox{
+    height: 500px;
+    margin:10px 4px;
+    border:black dashed 1.5px;
+    
+}
+
+.filterText{
+    margin-top: 15px;
+    text-align: center;
+}
+/* 
+.filterBtnDiv{
+    margin: auto;
+} */
+
+.filterBtn{
+    width: 60% !important;
+    margin:10px auto !important;
+    text-align: center !important;
+    display: block !important;
+    
+}
+
+.filterBtn:hover{
+    color:none !important;
+}
