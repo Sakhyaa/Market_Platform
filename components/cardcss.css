@@ -1,0 +1,164 @@
+
+
+.container{
+    max-width: 1450px;
+    display: block;
+    margin: auto;
+}
+#card{
+    margin-bottom: 10px;
+    margin-top:15px;
+    height: 180px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgb(199, 190, 190);
+    margin-right: 15px;
+    width:30%;
+    
+    
+}
+#card1{
+    margin-bottom: 10px;
+    margin-top:15px;
+    height: 500px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgb(129, 127, 127);
+    margin-right: 15px;
+    width:35%;
+
+    
+    
+    
+}
+
+
+#b{
+    background-color: rgb(248, 6, 6);
+    border-radius: 5px; 
+    padding: 5px;  
+}
+h4{
+    color: beige;
+}
+h3{
+    color:rgb(94, 149, 194);
+
+}
+#img{
+    width:20%
+}
+
+
+
+
+
+.maincontainer{
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    background: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  /* THE CARD HOLDS THE FRONT AND BACK FACES */
+  .thecard{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    height: 200px;
+    width:30%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgb(199, 190, 190);
+  }
+  
+  /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+  .thecard:hover{
+    transform: rotateY(180deg);
+  }
+  
+  /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+   .thefront{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: white;
+    color: #000;
+  }
+  
+  /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+  .theback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: #fafafa;
+    color: #333;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  
+  
+  /*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
+  .thefront h1, .theback h1{
+    font-family: 'zilla slab', sans-serif;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .thefront p, .theback p{
+    font-family: 'zilla slab', sans-serif;
+    padding: 30px;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+  }
+
+.cen
+  {
+      margin-top: 70px;
+      color: blue;
+  }
+
+#card2
+{
+  margin-bottom: 10px;
+  margin-top:15px;
+  height: 260px;
+  border-radius: 2px;
+  margin-right: 15px;
+  width:35%;
+  border-color: rgb(133, 128, 128);
+}
+#img1{
+  width: 90%;
+  border-radius: 30px;
+}
+#img2{
+  width: 15%;
+  
+}
+#h22{
+  margin-top: 5px;
+  color: rgb(86, 92, 92);
+}
+#img3{
+  width:10%;
+}
+#rp{
+  color: red;
+}
