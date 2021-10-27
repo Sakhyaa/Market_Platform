@@ -1,0 +1,14 @@
+.parent
+{
+  position: relative;
+  height:620px;
+}
+
+.child
+{
+  position: absolute;
+  top: 226px;
+  left:0;
+   right: 0;
+   
+}

@@ -1,0 +1,54 @@
+.BackgroundDesign {
+    background-image: url(https://www.sakhyaa.com/wp-content/themes/workreap/images/homeseven/footer-bg2.png),linear-gradient(to top, rgba(147,76,255,1) 0%,rgba(246,43,132,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    width:100%;
+}
+
+.children
+{
+  position: relative;
+  top: 166px;
+}
+
+.footeremail
+{
+  position: relative;
+  background-color: #934cff;
+  min-height: 60px;
+}
+
+.footeremail form
+{
+position: absolute;
+right: 40px;
+top: 10px;
+}
+
+.footerimage
+{
+  vertical-align: middle;
+  text-align: center;
+  height: 96px;
+  width: 128px;
+  
+}
+.Icons
+{
+padding: 0px;
+text-align:center;
+}
+
+.Icons li 
+{
+    list-style:none;
+    display:inline;
+    padding:4px
+}
+
+.btn
+{
+    background-color: pink;
+    height: 40px;
+}
