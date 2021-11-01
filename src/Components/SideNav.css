@@ -1,0 +1,25 @@
+.sideNav{
+    background-color: white;
+    margin-top:100px;
+    height: 75vw;
+    position:sticky;
+}
+
+.sideNav .sideNavBtn{
+    padding: 5px 0px;
+    background-color: white;
+    align-items: center;
+}
+
+.sideNav .sideNavBtn > Button{
+    border:none;
+}
+
+.sideNav .sideNavBtn .sideNavBtnUnFold{
+    left:17px;
+}
+
+
+.sideNav .sideNavBtn .sideNavBtnFold{
+    left:75px;
+}

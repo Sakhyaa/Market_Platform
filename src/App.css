@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+
+*{
+    top:0;
+}
+
+.appBody{
+    margin-top: 40px;
+    padding: 20px;
+}

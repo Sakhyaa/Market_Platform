@@ -1,0 +1,30 @@
+.app{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-menu{
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    left:0;
+    right: 0;
+    display: inline-flex; 
+    justify-content: space-around;
+}
+
+.top-menu .logo img{
+    height: 100px;
+}
+
+.top-menu .profile{
+    padding-right: 30px;
+}
+
+.top-menu .profile img{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    margin-right: 5px;
+}
+
